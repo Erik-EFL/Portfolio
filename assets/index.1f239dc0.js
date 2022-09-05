@@ -190,7 +190,11 @@ and limitations under the License.
     outline-color: #000;
   }
 
-  a {
+  .icons {
+    text-decoration: none;
+  }
+
+  .link {
     display: block;
     width: 100%;
     height: 100%;
@@ -200,11 +204,11 @@ and limitations under the License.
     transition: all 0.5s ease-in-out;
   }
 
-  a.active {
+  .link.active {
     opacity: 1;
     transition: all 0.5s ease-in-out
   }
-`;function DC(){return st(FC,{children:[R("i",{href:"https://www.linkedin.com/in/erikferreiralima/",target:"_blank",class:"icon ri-linkedin-fill"}),R("i",{href:"https://github.com/Erik-EFL",target:"_blank",className:"icon ri-github-line"}),R("i",{href:"https://www.instagram.com/oi.erik.lima/",target:"_blank",class:"icon ri-instagram-line"}),R(zs,{to:"/",value:"Home",className:"link",children:"Home"}),R(zs,{to:"/skills",value:"Skills",className:"link",children:"Skills"}),R(zs,{to:"/projects",value:"Projects",className:"link",children:"Projects"})]})}const BC=Ei.div`
+`;function DC(){return st(FC,{children:[R("a",{className:"icons",href:"https://www.linkedin.com/in/erikferreiralima/",target:"_blank",children:R("i",{class:"icon ri-linkedin-fill"})}),R("a",{className:"icons",href:"https://github.com/Erik-EFL",target:"_blank",children:R("i",{className:"icon ri-github-line"})}),R("a",{className:"icons",href:"https://www.instagram.com/oi.erik.lima/",target:"_blank",children:R("i",{class:"icon ri-instagram-line"})}),R(zs,{to:"/",value:"Home",className:"link",children:"Home"}),R(zs,{to:"/skills",value:"Skills",className:"link",children:"Skills"}),R(zs,{to:"/projects",value:"Projects",className:"link",children:"Projects"})]})}const BC=Ei.div`
   img {
     width: 200px;
   }
