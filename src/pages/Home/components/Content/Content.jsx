@@ -46,7 +46,7 @@ export default function Content() {
           <br />
           Atualmente estou focado em desenvolvimento web com ReactJS e NodeJS.
           <br />
-          Meus hobbies são: ir a academia, estudar, jogar video RPG e ouvir música.
+          Meus hobbies são: ir a academia, estudar, jogar RPG com meus amigos e ouvir música.
           <br />
           Meus amores são: minha família e meu gato Naruto.
         </Typography>

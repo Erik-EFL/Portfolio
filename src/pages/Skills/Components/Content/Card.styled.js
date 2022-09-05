@@ -5,7 +5,7 @@ export const CardStyled = styled(Grid)`
   width: 280px;
   padding: 20px;
   line-height: 15px;
-  backdrop-filter: blur(20px);
+  opacity: 100%;
   border-radius: 20px;
   border: 1px solid #e0e0e0;
   display: inline-block;
