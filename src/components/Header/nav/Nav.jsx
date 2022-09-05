@@ -5,9 +5,9 @@ import NavMenu from './Nav.style';
 export default function Nav() {
   return (
     <NavMenu>
-      <i href="https://www.linkedin.com/in/erikferreiralima/" target="_blank"class="icon ri-linkedin-fill"></i>
-      <i href="https://github.com/Erik-EFL" target="_blank"  className="icon ri-github-line"></i>
-      <i href="https://www.instagram.com/oi.erik.lima/" target="_blank"  class="icon ri-instagram-line"></i>
+      <a className='icons' href="https://www.linkedin.com/in/erikferreiralima/" target="_blank"><i class="icon ri-linkedin-fill" /></a>
+      <a className='icons' href="https://github.com/Erik-EFL" target="_blank"><i className="icon ri-github-line" /></a>
+      <a className='icons' href="https://www.instagram.com/oi.erik.lima/" target="_blank"><i class="icon ri-instagram-line" /></a>
 
       <NavLink
         to="/"

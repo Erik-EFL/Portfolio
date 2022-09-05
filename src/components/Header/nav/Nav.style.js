@@ -55,7 +55,11 @@ const NavMenu = styled.nav`
     outline-color: #000;
   }
 
-  a {
+  .icons {
+    text-decoration: none;
+  }
+
+  .link {
     display: block;
     width: 100%;
     height: 100%;
@@ -65,7 +69,7 @@ const NavMenu = styled.nav`
     transition: all 0.5s ease-in-out;
   }
 
-  a.active {
+  .link.active {
     opacity: 1;
     transition: all 0.5s ease-in-out
   }
