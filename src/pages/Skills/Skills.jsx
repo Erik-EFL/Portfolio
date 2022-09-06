@@ -13,7 +13,6 @@ export default function Skills() {
       marginTop: '90px',
       marginBottom: '120px',
     }}>
-      
       <Card />
     </Container>
   );
