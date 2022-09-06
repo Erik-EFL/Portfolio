@@ -1,4 +1,4 @@
-import { Container, Grid } from '@mui/material';
+import { Box, Container, Grid } from '@mui/material';
 import React from 'react';
 import { CardStyled } from './Card.styled';
 import Data from './utils/data';
@@ -7,11 +7,25 @@ export default function Card() {
   return (
     <Container container component="main" sx={{
       maxWidth: '900px',
+      marginTop: '-30px',
     }}>
       <Grid container spacing={2} xs={12} sm={12} md={12} lg={12} sx={{
         gap: '30px',
         justifyContent: 'center',
+        position: 'relative',
+        zIndex: '10',
       }}>
+        <Box sx={{
+          position: 'absolute',
+          top: '-20px',
+          left: '60px',
+          width: '50px',
+          height: '50px',
+          borderRadius: '100%',
+          backgroundColor: '#ffd001bd',
+          marginLeft: '20px',
+          zIndex: '-1',
+        }} />
         {Data?.map((item, index) => (
           <CardStyled key={index}>
               <h3>{ item.type}</h3>
@@ -31,6 +45,17 @@ export default function Card() {
                 ))}
           </CardStyled>
         ))}
+        <Box sx={{
+          position: 'absolute',
+          bottom: '-10px',
+          right: '90px',
+          width: '50px',
+          height: '50px',
+          borderRadius: '100%',
+          backgroundColor: '#ffd001bd',
+          marginLeft: '20px',
+          zIndex: '-1',
+        }} />
       </Grid>
     </Container>
   );
