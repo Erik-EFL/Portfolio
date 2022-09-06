@@ -12,4 +12,5 @@ export const FooterContainer = styled.footer`
   letter-spacing: 0.1rem;
   width: 100%;
   background: ${Themes.defaults.background};
+  z-index: 12;
 `;

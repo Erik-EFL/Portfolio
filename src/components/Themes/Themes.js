@@ -1,8 +1,8 @@
 export default {
   defaults: {
     background: '#1f1f1f',
-    color: '#fff',
-    text: '#fff',
+    color: '#ffd001bd',
+    text: '#b6b6b6',
   },
   themeOne: {
     background: '#393E46',
