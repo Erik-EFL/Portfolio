@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import theme from '../../Themes/Themes'
 
 const NavMenu = styled.nav`
   position: relative;
@@ -22,8 +23,8 @@ const NavMenu = styled.nav`
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    color: #b6b6b6;
-    outline: 2px solid #b6b6b6;
+    color: ${theme.defaults.text};
+    outline: 2px solid ${theme.defaults.text};
     transition-property: outline-offset, outline-color, background-color;
     transition-duration: 0.25s;
     opacity: 1;
@@ -69,9 +70,14 @@ const NavMenu = styled.nav`
     transition: all 0.5s ease-in-out;
   }
 
+  .link:hover {
+    opacity: 1;
+  }
+
   .link.active {
     opacity: 1;
-    transition: all 0.5s ease-in-out
+    transition: all 0.5s ease-in-out;
+    color: ${theme.defaults.color};
   }
 `;
 
