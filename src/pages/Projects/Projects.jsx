@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from '@mui/material/Container';
+import Card from './components/Content/Card';
 
 export default function Projects() {
   return (
@@ -11,7 +12,7 @@ export default function Projects() {
       alignItems: 'center',
       marginTop: '90px',
     }}>
-      Em processo de construção
+      <Card />
     </Container>
   );
 }
