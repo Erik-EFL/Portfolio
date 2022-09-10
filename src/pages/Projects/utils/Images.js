@@ -47,14 +47,14 @@ export default [
     description: 'Web app de planetas do StarWars junto com curiosidades sobre cada planeta',
     technologies: ['React', 'Context API', 'JavaScript'],
   },
-  {
+/*   {
     id: 530811640,
     url: 'https://github.com/Erik-EFL/Talker-Manager',
     title: 'Talker Manager',
     img: portfolio,
     description: 'CRUD simples para criação de uma API REST de um sistema de palestras',
     technologies: ['Node', 'JavaScript', 'JWT'],
-  },
+  }, */
   {
     id: 520568798,
     url: 'https://github.com/Erik-EFL/wine-19-hackathon',
