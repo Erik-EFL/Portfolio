@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
-export default function useFetch() {
+export default function useFetchLanguages(url) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('https://api.github.com/users/erik-efl/repos')
+    fetch(url)
       .then((response) => response.json())
       .then((data) => setData(data));
   }, []);
