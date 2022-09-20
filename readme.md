@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Preview](src\pages\Projects\utils\Image\portfolio.png)
+![Preview](perfilimage.png)
 
 </div>
 
