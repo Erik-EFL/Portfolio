@@ -12,14 +12,12 @@ export default function Home() {
       justifyContent: 'center',
       alignContent: 'center',
       alignItems: 'center',
-      padding: '0',
       marginTop: '40px',
       marginBottom: '120px',
     }}>
       <Grid container component='section'
       spacing={2} sx={{
         display: 'flex',
-        flexDirection: 'row',
         justifyContent: 'center',
         alignContent: 'center',
         alignItems: 'center',
