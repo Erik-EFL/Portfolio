@@ -19,8 +19,7 @@ O projeto foi desenvolvido com o intuito de mostrar meus projetos e habilidades.
 
   <br />
 </details>
-  <br />
-  <br />
+ 
 
   ### Habilidades utilizadas durante o desenvolvimento 💻
 
