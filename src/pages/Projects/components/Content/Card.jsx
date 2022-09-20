@@ -1,7 +1,5 @@
 import { Container, Grid } from '@mui/material';
 import React from 'react';
-import useFetchData from '../../hooks/FetchData';
-import {filtered} from '../../utils/Filtered';
 import { CardStyled } from './Card.styled';
 import data from '../../utils/Images'
 

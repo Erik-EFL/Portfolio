@@ -9,7 +9,7 @@ import Footer from '../components/Footer/Footer';
 
 export default function Router() {
   return (
-    <div>
+    <>
       <BrowserRouter>
         <CssBaseline />
         <Header />
@@ -20,6 +20,6 @@ export default function Router() {
         </Routes>
       </BrowserRouter>
       <Footer />
-    </div>
+    </>
   );
 }
