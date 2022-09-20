@@ -58,8 +58,6 @@ O projeto foi desenvolvido com o intuito de mostrar meus projetos e habilidades.
 </details>
 
   <br />
-  <br />
-  <br />
 
 ### 🤝 Colaboradores 💻
 
