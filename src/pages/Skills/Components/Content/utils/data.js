@@ -12,11 +12,11 @@ export default [
       },
       {
         name: 'JavaScript',
-        level: 5,
+        level: 4,
       },
       {
         name: 'React.js',
-        level: 5,
+        level: 4,
       },
       {
         name: 'Styled Components',
@@ -33,11 +33,11 @@ export default [
     skills: [
       {
         name: 'Node.js',
-        level: 5,
+        level: 4,
       },
       {
         name: 'Express',
-        level: 5,
+        level: 4,
       },
       {
         name: 'MongoDB',
@@ -61,11 +61,15 @@ export default [
     type: 'Tools',
     skills: [
       {
-        name: 'Git',
+        name: 'VSCode',
         level: 5,
       },
       {
-        name: 'GitHub',
+        name: 'Insomnia',
+        level: 5,
+      },
+      {
+        name: 'Thunder Client',
         level: 5,
       },
       {
@@ -74,7 +78,7 @@ export default [
       },
       {
         name: 'Canva',
-        level: 4,
+        level: 3,
       },
     ],
   },
@@ -83,6 +87,14 @@ export default [
     skills: [
       {
         name: 'Docker',
+        level: 4,
+      },
+      {
+        name: 'Git',
+        level: 4,
+      },
+      {
+        name: 'GitHub',
         level: 4,
       },
     ],
