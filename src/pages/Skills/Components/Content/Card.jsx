@@ -28,7 +28,10 @@ export default function Card() {
         }} />
         {Data?.map((item, index) => (
           <CardStyled key={index}>
-              <h3>{ item.type}</h3>
+            <div className="card-header">
+              <h3>{ item.type }</h3>
+              <p>Conforto</p>
+            </div>
               { item.skills.map((skill, index) => (
                 <div key={index} style={{
                   display: 'flex',
@@ -39,7 +42,7 @@ export default function Card() {
                   {
                     item.type === 'Languages'
                     ? <p>{ skill.level }</p>
-                    : <p>{` Level: ${ skill.level }`}</p>
+                    : <p>{` Nível: ${ skill.level }`}</p>
                     }
                   </div>
                 ))}
