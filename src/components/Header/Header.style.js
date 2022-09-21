@@ -9,6 +9,13 @@ const HeaderStyled = Styled.header`
   margin: 0 auto;
   max-width: 1200px;
   width: 90%;
+
+  @media (max-width: 600px) {
+    .icon, .link {
+      display: none;
+    }
+  }
+
 `;
 
 export default HeaderStyled;

@@ -6,20 +6,25 @@ import Projects from '../pages/Projects/Projects';
 import Skills from '../pages/Skills/Skills';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
+import NavMobile from '../components/Footer/nav/NavMobile';
+import Main from '../components/Styles/Main.styled';
 
 export default function Router() {
   return (
     <>
-      <BrowserRouter>
-        <CssBaseline />
-        <Header />
-        <Routes>
-          <Route exact path='/projects' element={<Projects />} />
-          <Route exact path='/skills' element={<Skills />} />
-          <Route exact path='/' element={<Home />} />
-        </Routes>
-      </BrowserRouter>
-      <Footer />
+      <Main>
+        <BrowserRouter>
+          <CssBaseline />
+          <Header />
+          <Routes>
+            <Route exact path='/projects' element={<Projects />} />
+            <Route exact path='/skills' element={<Skills />} />
+            <Route exact path='/' element={<Home />} />
+          </Routes>
+          <NavMobile />
+        </BrowserRouter>
+        <Footer />
+      </Main>
     </>
   );
 }

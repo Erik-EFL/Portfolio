@@ -4,7 +4,7 @@ import logo from './image.svg'
 
 export default function Logo() {
   return (
-    <LogoStyle>
+    <LogoStyle className='logo'>
       <img src={logo} alt="Logotipo" />
     </LogoStyle>
   );
