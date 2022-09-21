@@ -1,14 +1,16 @@
 import React from 'react';
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import Icons from './Icosn';
 import NavMenu from './Nav.style';
 
 export default function Nav() {
-  return (
-    <NavMenu>
-      <a className='icons' href="https://www.linkedin.com/in/erikferreiralima/" target="_blank"><i class="icon ri-linkedin-fill" /></a>
-      <a className='icons' href="https://github.com/Erik-EFL" target="_blank"><i className="icon ri-github-line" /></a>
-      <a className='icons' href="https://www.instagram.com/oi.erik.lima/" target="_blank"><i class="icon ri-instagram-line" /></a>
+  const [ isActive, setIsActive ] = useState(false)
+  const [ isActiveBtn, setIsActiveBtn ] = useState(false)
 
+  return (
+    <NavMenu className='navTop'>
+      <Icons />
       <NavLink
         to="/"
         value='Home'
@@ -30,6 +32,19 @@ export default function Nav() {
       >
         Projects
       </NavLink>
+      <button
+        className={`link ${isActive === true ? "active" : "inactive"}`}
+        type='button'
+        onClick={ () => {
+          setIsActive(!isActive),
+          setIsActiveBtn(!isActiveBtn)
+        } }
+      >
+        Contacts
+      </button>
+      <div className={`menu ${isActive === true ? "active" : "inactive"}`}>
+        <Icons />
+      </div>
     </NavMenu>
   );
 }

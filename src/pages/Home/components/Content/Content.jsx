@@ -6,8 +6,8 @@ export default function Content() {
   return (
     <>
       <Grid sx={{
-        margin: 'auto 3rem',
-      }} item xs={12} sm={6}>
+        margin: 'auto 1rem',
+      }} item xs={12} sm={12} md={6} lg={6}>
         <Box sx={{
           position: 'relative',
         }}>
@@ -38,7 +38,7 @@ export default function Content() {
           sequence={['Um Full Stack Developer', 1000000]}
           wrapper="h1"
         />
-        <Grid xs={10} sm={8} md={10} lg={12}>
+        <Grid xs={12} sm={12} md={6} lg={12}>
         <Typography component='p'>
           Moro em Guarulhos/SP
           <br />
