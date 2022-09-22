@@ -30,7 +30,7 @@ export default function Card() {
       maxWidth: '900px',
       marginTop: '-30px',
     }}>
-      <Grid container spacing={2} xs={12} sm={12} md={12} lg={12} sx={{
+      <Grid container spacing={2} xs={14} sm={14} md={14} lg={14} sx={{
         gap: '30px',
         justifyContent: 'center',
         position: 'relative',

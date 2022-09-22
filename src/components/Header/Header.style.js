@@ -11,8 +11,8 @@ const HeaderStyled = Styled.header`
   width: 90%;
 
   @media (max-width: 600px) {
-    .icon, .link {
-      display: none;
+    .logo {
+      margin-left: -15px;
     }
   }
 

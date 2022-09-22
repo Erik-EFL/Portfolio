@@ -38,7 +38,7 @@ export default function Content() {
           sequence={['Um Full Stack Developer', 1000000]}
           wrapper="h1"
         />
-        <Grid xs={12} sm={12} md={6} lg={12}>
+        <Grid xs={12} sm={12} md={11} lg={11}>
         <Typography component='p'>
           Moro em Guarulhos/SP
           <br />
