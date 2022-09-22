@@ -21,6 +21,7 @@ export default function Home() {
         justifyContent: 'center',
         alignContent: 'center',
         alignItems: 'center',
+        padding: '0 16px',
       }}>
         <Content />
         <ContainerImage />

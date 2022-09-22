@@ -7,6 +7,12 @@ const Main = styled.main`
       display: none;
     }
     .navTop {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin-left: -50px;
+      
       .link {
         display: none;
       }
