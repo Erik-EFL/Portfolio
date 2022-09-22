@@ -19,7 +19,7 @@ O projeto foi desenvolvido com o intuito de mostrar meus projetos e habilidades.
 
   <br />
 </details>
- 
+
 
   ### Habilidades utilizadas durante o desenvolvimento 💻
 
@@ -53,6 +53,26 @@ O projeto foi desenvolvido com o intuito de mostrar meus projetos e habilidades.
   * Git
   * GitHub-pages
   * Vercel
+
+  <br />
+</details>
+
+<details>
+  <summary> 🖥️ Implementações futuras 🖥️</summary>
+  <br />
+
+  * Front-end
+    * Aplicar atomic design
+    * Criar easter eggs na página
+    * Criar uma página de contato/ About me
+    * Criar area de admin para verificar informações sobre acessos e ter um controle sobre as
+      melhoras que possam ser feitas no site
+    * Aplicar testes unitários
+  * Back-end
+    * Criar uma api para armazenar os dados dos projetos
+    * Criar testes de integração
+    * Criar testes E2E
+    * Aplicar testes unitários
 
   <br />
 </details>
@@ -92,4 +112,4 @@ O projeto foi desenvolvido com o intuito de mostrar meus projetos e habilidades.
 
 </br>
 
-Esse projeto foi desenvolvido para propósitos de aprendizagem e divulgação de meus projetos, todo o código e documentação são de [Erik-EFL](https://github.com/Erik-EFL) autoria e os direitos pertencem exclusivamente a [Erik-EFL](https://github.com/Erik-EFL). É permitido baixar ou clonar o repositório para fins de estudo. Contudo, não é permitido publicar cópias totais ou parciais. Este aviso não cobre bibliotecas, dependências ou marcas, estas estão sujeitas a suas respectivas licenças.
+Esse projeto foi desenvolvido para propósitos de aprendizagem e divulgação de meus projetos, todo o código e documentação são da autoria de [Erik-EFL](https://github.com/Erik-EFL) e os direitos pertencem exclusivamente a [Erik-EFL](https://github.com/Erik-EFL). É permitido baixar ou clonar o repositório para fins de estudo. Contudo, não é permitido publicar cópias totais ou parciais. Este aviso não cobre bibliotecas, dependências ou marcas, estas estão sujeitas a suas respectivas licenças.
