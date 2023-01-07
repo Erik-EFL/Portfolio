@@ -19,7 +19,9 @@ function About() {
           }}>
             <Video />
           </Grid>
-          <Grid item xs={12} sm={12} md={8} lg={6}>
+          <Grid item xs={12} sm={12} md={8} lg={6} sx={{
+            margin: 'auto'
+          }}>
             <Text />
           </Grid>
         </Grid>
