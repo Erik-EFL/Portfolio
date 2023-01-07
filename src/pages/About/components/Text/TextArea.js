@@ -3,14 +3,12 @@ import theme from '../../../../components/Themes/Themes';
 
 const TextArea = styled.article`
   width: 100%;
-  padding: 12px;
-  margin: 0;
+  padding: 12px 20px 12px 12px;
   font-size: 1rem;
   line-height: 1.5;
   text-align: justify;
   text-justify: inter-word;
   color: ${theme.defaults.color};
-  max-height: 70vh;
   overflow-y: scroll;
 
   /* Works on Firefox */
@@ -31,6 +29,16 @@ const TextArea = styled.article`
     background-color: #202024;
     border-radius: 20px;
     border: 1px solid #fff;
+  }
+
+  @media (min-width: 769px) {
+    height: 60vh;
+    margin-bottom: 60px;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    height: 37vh;
+    margin-bottom: 60px;
   }
 `;
 

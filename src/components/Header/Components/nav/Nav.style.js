@@ -10,15 +10,15 @@ const NavMenu = styled.nav`
   justify-content: baseline;
   gap: 10px;
 
-  @media (min-width: 481px) and (min-width: 768px) {
+  @media (min-width: 501px) and (max-width: 768px) {
     .icon-social-media {
       display: none;
     }
   }
 
-  @media (min-width: 320px) and (min-width: 480px) {
+  @media (min-width: 320px) {
     .icon-social-media {
-      display: none;
+      display: flex;
     }
   }
 `;

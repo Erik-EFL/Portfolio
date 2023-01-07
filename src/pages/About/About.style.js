@@ -3,9 +3,11 @@ import styled from 'styled-components';
 import theme from '../../../../components/Themes/Themes';
 
 const AboutContainer = styled(Container)`
-  @media (min-width: 768px) {
-    padding: 0 0 0 0;
-    
+  display: flex;
+  f
+
+  h1 {
+    text-align: center;
   }
 `;
 

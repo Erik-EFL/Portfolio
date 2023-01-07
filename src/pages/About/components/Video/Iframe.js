@@ -5,8 +5,9 @@ const IFrameContainer = styled.iframe`
   border: none;
   border-radius: 5px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-  margin: 0 0 0 0;
+  margin: auto;
   padding: 0 0 0 0;
+  display: flex;
 
   @media (min-width: 400px) {
     height: 300px;

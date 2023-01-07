@@ -12,7 +12,7 @@ export default function Home() {
       justifyContent: 'center',
       alignContent: 'center',
       alignItems: 'center',
-      marginTop: '40px',
+      marginTop: '30px',
       marginBottom: '120px',
     }}>
       <Grid container component='section'
@@ -22,6 +22,7 @@ export default function Home() {
         alignContent: 'center',
         alignItems: 'center',
         padding: '0 16px',
+        margin: 'auto',
       }}>
         <Content />
         <ContainerImage />

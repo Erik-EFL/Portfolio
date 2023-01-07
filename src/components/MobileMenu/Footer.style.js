@@ -30,7 +30,6 @@ const NavMenu = styled.nav`
     h1 {
       margin-bottom: -10px;
       padding: 0;
-      font-size: 30px;
       display: inline-block;
      }
   }
