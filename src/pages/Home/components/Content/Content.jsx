@@ -1,5 +1,6 @@
-import React from 'react';
 import { Box, Grid, Typography } from '@mui/material';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 
 export default function Content() {
@@ -40,15 +41,13 @@ export default function Content() {
         />
         <Grid xs={12} sm={12} md={11} lg={11}>
         <Typography component='p'>
-          Moro em Guarulhos/SP
           <br />
-          Sou apaixonado por tecnologia e programação.
+          Apaixonado por tecnologia e programação.
           <br />
-          Atualmente estou focado em desenvolvimento web com ReactJS e NodeJS.
+          Atualmente estou focado em desenvolvimento com React e React Native e no back-end com Node e seus frameWorks.
           <br />
-          Meus hobbies são: ir a academia, estudar, jogar RPG com meus amigos e ouvir música.
+          Saiba um pouco mais sobre mim <Link to='/about'>aqui</Link>
           <br />
-          Meus amores são: minha família e meu gato Naruto.
         </Typography>
         </Grid>
       </Grid>

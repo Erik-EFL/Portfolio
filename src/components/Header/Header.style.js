@@ -8,14 +8,18 @@ const HeaderStyled = Styled.header`
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
-  width: 90%;
 
-  @media (max-width: 600px) {
-    .logo {
-      margin-left: -15px;
-    }
+  @media (min-width: 769px) {
+    width: 90%;
   }
 
+  @media (min-width: 481px) and (max-width: 768px) {
+    width: 100%;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 export default HeaderStyled;

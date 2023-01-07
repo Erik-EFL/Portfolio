@@ -12,6 +12,7 @@ const NavMenu = styled.nav`
   justify-content: center;
   align-content: center;
   grid-gap: 25px;
+  
   .icon {
     margin-top: -10px;
     font-size: 25px;

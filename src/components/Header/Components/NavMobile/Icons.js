@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import theme from '../../Themes/Themes'
+import theme from '../../../Themes/Themes';
 
 const IconsMenu = styled.nav`
   position: relative;

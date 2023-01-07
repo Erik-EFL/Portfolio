@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderStyled from './Header.style';
-import Nav from './nav/Nav';
-import Logo from './logo/Logo';
+import Nav from './Components/nav/Nav';
+import Logo from './Components/logo/Logo';
 
 export default function Header() {
   return (

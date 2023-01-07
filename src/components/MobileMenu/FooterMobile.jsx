@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import NavMenu from './Nav.style';
-import { BiBookOpen, BiHome, BiBriefcase } from "react-icons/bi";
+import NavMenu from './Footer.style';
+import { BiBookOpen, BiHome, BiBriefcase, BiComment } from "react-icons/bi";
 
 
 export default function NavMobile() {
@@ -22,6 +22,14 @@ export default function NavMobile() {
       >
        <h1><BiBriefcase /></h1>
        <p>Skills</p>
+      </NavLink>
+      <NavLink
+        to="/about"
+        value='About'
+        className="link"
+      >
+       <h1><BiComment /></h1>
+       <p>About</p>
       </NavLink>
       <NavLink
         to="/projects"

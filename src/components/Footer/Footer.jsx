@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from '../Header/nav/Nav';
 import { FooterContainer } from './Footer.style';
 
 export default function Footer() {
