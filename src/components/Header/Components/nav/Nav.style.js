@@ -10,13 +10,13 @@ const NavMenu = styled.nav`
   justify-content: baseline;
   gap: 10px;
 
-  @media (min-width: 501px) and (max-width: 768px) {
+  @media (min-width: 604px) and (max-width: 768.73px)  {
     .icon-social-media {
       display: none;
     }
   }
 
-  @media (min-width: 320px) {
+  @media (min-width: 320px) and (max-width: 603px)  {
     .icon-social-media {
       display: flex;
     }
@@ -59,7 +59,7 @@ const Container = styled.div`
     }
   }
 
-  @media (min-width: 481px) and (max-width: 768px) {
+  @media (min-width: 604px) and (max-width: 768.73px) {
     .menuContacts {
       .link.open {
         color: ${theme.defaults.color};
@@ -83,7 +83,7 @@ const Container = styled.div`
     }
   }
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 603px) {
     .active {
       display: none;
     }
@@ -100,10 +100,6 @@ const Container = styled.div`
       .menu {
         display: none;
       }
-    }
-
-    .icon-social-media {
-      display: flex;
     }
   }
 `;
