@@ -1,6 +1,56 @@
 export default [
   {
-    type: 'Front-end WEB',
+    type: 'Soft Skills',
+    skills: [
+      {
+        name: 'Boa Comunicação',
+      },
+      {
+        name: 'Trabalho em equipe',
+      },
+      {
+        name: 'Resolução de problemas',
+      },
+      {
+        name: 'Gestão de tempo',
+      },
+      {
+        name: 'Criatividade',
+      },
+      {
+        name: 'Empatia',
+      },
+      {
+        name: 'Liderança',
+      },
+      {
+        name: 'Gestão de conflitos',
+      }
+    ],
+  },
+  {
+    type: 'Prog. Languages',
+    skills: [
+      {
+        name: 'JavaScript',
+        level: 5,
+      },
+      {
+        name: 'TypeScript',
+        level: 4,
+      },
+      {
+        name: 'Python',
+        level: 3,
+      },
+      {
+        name: 'C#',
+        level: 3,
+      }
+    ],
+  },
+  {
+    type: 'Front-end',
     skills: [
       {
         name: 'HTML',
@@ -11,11 +61,19 @@ export default [
         level: 5,
       },
       {
-        name: 'JavaScript',
+        name: 'React.js',
+        level: 5,
+      },
+      {
+        name: 'React Hooks',
         level: 4,
       },
       {
-        name: 'React.js',
+        name: 'Redux',
+        level: 4,
+      },
+      {
+        name: 'Context API',
         level: 4,
       },
       {
@@ -24,7 +82,7 @@ export default [
       },
       {
         name: 'Material UI',
-        level: 3,
+        level: 5,
       },
     ],
   },
@@ -40,7 +98,7 @@ export default [
         level: 4,
       },
       {
-        name: 'MongoDB',
+        name: 'Nest.js',
         level: 3,
       },
       {
@@ -48,12 +106,95 @@ export default [
         level: 3,
       },
       {
-        name: 'MySQL',
+        name: 'Prisma',
         level: 4,
       },
       {
         name: 'Sequelize',
         level: 4,
+      },
+      {
+        name: 'TypeORM',
+        level: 3,
+      },
+    ],
+  },
+  {
+    type: 'Data Bases',
+    skills: [
+      {
+        name: 'MongoDB',
+        level: 3,
+      },
+      {
+        name: 'MySQL',
+        level: 4,
+      },
+      {
+        name: 'PostgreSQL',
+        level: 4,
+      },
+      {
+        name: 'SQLite',
+        level: 4,
+      }
+    ],
+  },
+  {
+    type: 'Testes',
+    skills: [
+      {
+        name: 'Jest',
+        level: 4,
+      },
+      {
+        name: 'React Testing Library',
+        level: 4,
+      },
+      {
+        name: 'Cypress',
+        level: 4,
+      },
+      {
+        name: 'Mocha',
+        level: 4,
+      },
+      {
+        name: 'Chai',
+        level: 4,
+      },
+      {
+        name: 'Sinon',
+        level: 4,
+      }
+    ]
+  },
+  {
+    type: 'Dev Ops',
+    skills: [
+      {
+        name: 'Docker',
+        level: 4,
+      },
+      {
+        name: 'Git',
+        level: 4,
+      },
+      {
+        name: 'GitHub',
+        level: 4,
+      },
+      {
+        name: 'Docker Compose',
+        level: 4,
+      },
+      {
+        name: 'Heroku',
+        level: 3,
+      },
+      {
+        name: 'Vercel',
+        level: 3,
       },
     ],
   },
@@ -73,29 +214,16 @@ export default [
         level: 5,
       },
       {
+        name: 'Postman',
+        level: 5,
+      },
+      {
         name: 'Figma',
         level: 3,
       },
       {
         name: 'Canva',
         level: 3,
-      },
-    ],
-  },
-  {
-    type: 'Dev Ops',
-    skills: [
-      {
-        name: 'Docker',
-        level: 4,
-      },
-      {
-        name: 'Git',
-        level: 4,
-      },
-      {
-        name: 'GitHub',
-        level: 4,
       },
     ],
   },
@@ -117,12 +245,38 @@ export default [
     skills: [
       {
         name: 'English',
-        level: 'Intermediário',
+        level: 'Intermediate',
       },
       {
-        name: 'Portuguese',
-        level: 'Nativo',
+        name: 'Portuguese (Brazil)',
+        level: 'Native',
       },
+    ],
+  },
+  {
+    type: 'Others',
+    skills: [
+      {
+        name: 'Scrum',
+      },
+      {
+        name: 'Kanban',
+      },
+      {
+        name: 'OOP',
+      },
+      {
+        name: 'SOLID',
+      },
+      {
+        name: 'TDD',
+      },
+      {
+        name: "Clean Code"
+      },
+      {
+        name: "Data Structures"
+      }
     ],
   }
 ]

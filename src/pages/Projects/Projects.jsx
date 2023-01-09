@@ -11,6 +11,7 @@ export default function Projects() {
       alignContent: 'center',
       alignItems: 'center',
       marginTop: '90px',
+      color: '#ffffffcb',
     }}>
       <Card />
     </Container>
