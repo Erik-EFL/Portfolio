@@ -8,6 +8,7 @@ export default function Content() {
     <>
       <Grid sx={{
         margin: 'auto 1rem',
+        color:' #ffffffcb',
       }} item xs={12} sm={12} md={6} lg={6}>
         <Box sx={{ position: 'relative', marginBottom: '-10px'}}>
           <h3>
@@ -40,7 +41,10 @@ export default function Content() {
         <Grid xs={12} sm={12} md={11} lg={11}  sx={{
           position: 'relative', marginTop: '-20px'
         }}>
-          <Typography component='p'>
+          <Typography component='p' sx={{
+            color: '#ffffffcb',
+
+          }}>
             <br />
             Apaixonado por tecnologia e programação.
             <br />

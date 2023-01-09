@@ -10,6 +10,7 @@ const TextArea = styled.article`
   text-justify: inter-word;
   color: ${theme.defaults.color};
   overflow-y: scroll;
+  color: #ffffffcb;
 
   /* Works on Firefox */
   scrollbar-width: thin;

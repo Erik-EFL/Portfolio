@@ -5,6 +5,7 @@ export const FooterContainer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffffcb;
 
   position: fixed;
   bottom: 0;
