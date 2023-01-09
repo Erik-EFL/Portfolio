@@ -3,28 +3,28 @@ export default [
     type: 'Soft Skills',
     skills: [
       {
-        name: 'Boa Comunicação',
+        name: 'Good Communication',
       },
       {
-        name: 'Trabalho em equipe',
+        name: 'Teamwork',
       },
       {
-        name: 'Resolução de problemas',
+        name: 'Problem solving',
       },
       {
-        name: 'Gestão de tempo',
+        name: 'Time management',
       },
       {
-        name: 'Criatividade',
+        name: 'Creativity',
       },
       {
-        name: 'Empatia',
+        name: 'Empathy',
       },
       {
-        name: 'Liderança',
+        name: 'Leadership',
       },
       {
-        name: 'Gestão de conflitos',
+        name: 'Conflict management',
       }
     ],
   },
