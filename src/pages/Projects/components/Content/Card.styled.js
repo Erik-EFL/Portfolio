@@ -13,6 +13,9 @@ export const CardStyled = styled(Grid)`
   align-items: center;
   align-content: center;
 
+  a {
+    color: #ffffffcb;
+  }
   .card-title {
     width: 100%;
     margin-bottom: 15px;
