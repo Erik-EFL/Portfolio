@@ -8,6 +8,7 @@ const Container = styled.nav`
     justify-content: center;
     align-content: center;
     margin-right: 60px;
+    color: #ffffffcb;
 
     button {
       border: none;

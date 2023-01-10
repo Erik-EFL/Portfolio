@@ -16,20 +16,20 @@ export default function NavMobile() {
         <p>Home</p>
       </NavLink>
       <NavLink
-        to="/skills"
-        value='Skills'
-        className="link"
-      >
-       <h1><BiBriefcase /></h1>
-       <p>Skills</p>
-      </NavLink>
-      <NavLink
         to="/about"
         value='About'
         className="link"
       >
        <h1><BiComment /></h1>
        <p>About</p>
+      </NavLink>
+      <NavLink
+        to="/skills"
+        value='Skills'
+        className="link"
+      >
+       <h1><BiBriefcase /></h1>
+       <p>Skills</p>
       </NavLink>
       <NavLink
         to="/projects"

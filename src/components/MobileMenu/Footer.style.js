@@ -11,6 +11,7 @@ const NavMenu = styled.nav`
   justify-content: space-around;
   align-items: center;
   padding: 0;
+  color: #ffffffcb;
 
 
   a {
@@ -19,6 +20,7 @@ const NavMenu = styled.nav`
     justify-content: center;
     align-items: center;
     align-content: center;
+    color: #ffffffcb;
     text-decoration: none;
     line-height: 0;
     margin-top: 0;
@@ -41,7 +43,7 @@ const NavMenu = styled.nav`
   .link.active {
     opacity: 1;
     transition: all 0.5s ease-in-out;
-    color: ${theme.defaults.color};
+    color: ${theme.defaults.text};
   }
 `;
 

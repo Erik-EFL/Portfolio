@@ -9,6 +9,7 @@ const NavMenu = styled.nav`
   align-content: baseline;
   justify-content: baseline;
   gap: 10px;
+  color: #ffffffcb;
 
   @media (min-width: 604px) and (max-width: 768.73px)  {
     .icon-social-media {
