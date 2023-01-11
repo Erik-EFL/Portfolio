@@ -3,11 +3,11 @@ import theme from '../../../../components/Themes/Themes';
 
 const TextArea = styled.article`
   width: 100%;
-  padding: 12px 20px 12px 12px;
+  padding: 0 20px;
   font-size: 1rem;
-  line-height: 1.5;
-  text-align: justify;
-  text-justify: inter-word;
+  line-height: 1.2;
+  text-align: left;
+  text-justify: distribute-all-lines;
   color: ${theme.defaults.color};
   overflow-y: scroll;
   color: #ffffffcb;
@@ -33,24 +33,20 @@ const TextArea = styled.article`
   }
 
   @media (min-width: 1025px) {
-    height: 60vh;
+    height: 55vh;
     margin-bottom: 100px;
   }
 
   @media (min-width: 769px) and (max-width: 1024px)  {
-    height: 60vh;
-    margin-bottom: 60px;
-
+    height: 50vh;
   }
 
   @media (min-width: 399.3px) and (max-width: 768px) {
-    height: 37vh;
-    margin-bottom: 60px;
+    height: 23vh;
   }
 
   @media (min-width: 320px) and (max-width: 399.2px) {
-    height: 37vh;
-    margin-bottom: 60px;
+    height: 23vh;
   }
 `;
 

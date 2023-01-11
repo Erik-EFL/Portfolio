@@ -7,12 +7,10 @@ function About() {
   return (
     <>
       <h1 style={{ textAlign: 'center', color: '#ffffffcb', }}>Quem sou eu</h1>
-      <Container maxWidth='lg' sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            margin: 'auto',
+      <Container component='main' maxWidth='lg' sx={{
             color: '#ffffffcb',
+            margin: 'auto',
+
           }}>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={12} md={8} lg={6} sx={{
@@ -21,7 +19,8 @@ function About() {
             <Video />
           </Grid>
           <Grid item xs={12} sm={12} md={8} lg={6} sx={{
-            margin: 'auto'
+            marginLeft: 'auto',
+            marginRight: 'auto',
           }}>
             <Text />
           </Grid>
