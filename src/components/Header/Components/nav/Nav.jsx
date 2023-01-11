@@ -7,7 +7,6 @@ import  { NavMenu, Container } from './Nav.style';
 export default function Nav() {
   return (
     <NavMenu>
-        <Icons />
         <Container className='completeMenu'>
           <NavLink
             to="/"
@@ -37,6 +36,7 @@ export default function Nav() {
           >
             Projects
           </NavLink>
+          <Icons />
           <MenuMobile />
         </Container>
       </NavMenu>
