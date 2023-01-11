@@ -9,19 +9,15 @@ const NavMenu = styled.nav`
   align-content: baseline;
   justify-content: baseline;
   gap: 10px;
-  color: #ffffffcb;
+  width: 100%;
+  /* color: #ffffffcb; */
 
-  @media (min-width: 604px) and (max-width: 768.73px)  {
-    .icon-social-media {
-      display: none;
+  @media (min-width: 840px) and (max-width: 1080px) {
+    .completeMenu {
+      margin-right: 50px;
     }
   }
 
-  @media (min-width: 320px) and (max-width: 603px)  {
-    .icon-social-media {
-      display: flex;
-    }
-  }
 `;
 
 const Container = styled.div`
@@ -29,7 +25,10 @@ const Container = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
   padding: 0 10px;
 
 
@@ -37,13 +36,15 @@ const Container = styled.div`
     color: ${theme.defaults.color};
     text-decoration: none;
     transition: all 0.5s ease-in-out;
+    font-size: 20px;
   }
 
   .inactive {
     color: ${theme.defaults.text};
-    opacity: 0.4;
+    opacity: 0.6;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
+    font-size: 20px;
 
     &:hover {
       color: ${theme.defaults.text};
@@ -54,18 +55,27 @@ const Container = styled.div`
   }
 
   // break points
-  @media (min-width: 769px) {
+  @media (min-width: 838px) {
     .menuContacts {
       display: none;
     }
   }
 
-  @media (min-width: 604px) and (max-width: 768.73px) {
+  @media (min-width: 604px) and (max-width: 840px) {
+    .active {
+      font-size: 18px;
+    }
+
+    .inactive {
+      font-size: 18px;
+    }
+
     .menuContacts {
       .link.open {
         color: ${theme.defaults.color};
         text-decoration: none;
         transition: all 0.5s ease-in-out;
+        font-size: 18px;
       }
 
       .link.exit {
@@ -73,6 +83,7 @@ const Container = styled.div`
         opacity: 0.4;
         text-decoration: none;
         transition: all 0.5s ease-in-out;
+        font-size: 18px;
 
         &:hover {
           color: ${theme.defaults.text};

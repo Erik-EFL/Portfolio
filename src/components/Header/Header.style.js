@@ -13,12 +13,16 @@ const HeaderStyled = Styled.header`
     width: 90%;
   }
 
-  @media (min-width: 481px) and (max-width: 768px) {
-    width: 100%;
+  @media (min-width: 604px) and (max-width: 840px)  {
+    .icon-social-media {
+      display: none;
+    }
   }
 
-  @media (min-width: 320px) and (max-width: 480px) {
-    width: 100%;
+  @media (min-width: 320px) and (max-width: 603px)  {
+    .icon-social-media {
+      display: flex;
+    }
   }
 `;
 
