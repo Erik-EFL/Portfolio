@@ -10,7 +10,6 @@ function About() {
       <Container component='main' maxWidth='lg' sx={{
             color: '#ffffffcb',
             margin: 'auto',
-
           }}>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={12} md={8} lg={6} sx={{

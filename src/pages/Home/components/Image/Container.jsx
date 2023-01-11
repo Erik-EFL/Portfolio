@@ -1,22 +1,16 @@
 import React from 'react';
 import { Box, Grid } from '@mui/material';
 import erik from './perfil.png';
+import ImageContainer from './Container.style';
 
 export default function Container() {
   return (
     <>
-      <Grid component='section' xs={7} sm={6} md={4} lg={4}
-         sx={{
-          height: '30vh',
-        }}
+      <Grid component='section' xs={6} sm={5} md={5} lg={4}
+        sx={{ margin: 'auto' }}
       >
-        <Box component='div' sx={{
-            marginTop: '10px',
-        }}>
-          <Box component='img' src={erik} alt="imagem de Erik lima"  sx={{
-            width: '100%',
-            borderRadius: '50%',
-          }} />
+        <Box component='div'>
+          <ImageContainer component='img' src={erik} alt="imagem de Erik lima"  />
         </Box>
       </Grid>
     </>
