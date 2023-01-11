@@ -1,32 +1,22 @@
 import React from 'react';
-import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Content from './components/Content/Content';
 import ContainerImage from './components/Image/Container';
+import HomeContainer from './Home.style';
 
 export default function Home() {
   return (
-    <Container component='main' maxWidth="lg" sx={{
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-      alignContent: 'center',
-      alignItems: 'center',
-      marginTop: '30px',
-      marginBottom: '120px',
-    }}>
+    <HomeContainer component='main' maxWidth="lg">
       <Grid container component='section'
       spacing={2} sx={{
         display: 'flex',
-        justifyContent: 'center',
-        alignContent: 'center',
-        alignItems: 'center',
-        padding: '0 16px',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
         margin: 'auto',
-      }}>
+      }} xs={12} sm={12} md={11} lg={12}>
         <Content />
         <ContainerImage />
       </Grid>
-    </Container>
+    </HomeContainer>
   );
 }
