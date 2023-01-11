@@ -2,7 +2,7 @@ export default {
   defaults: {
     background: '#1f1f1f',
     color: '#ffd001bd',
-    text: '#b6b6b6',
+    text: '#bfbfbf',
   },
   themeOne: {
     background: '#393E46',
