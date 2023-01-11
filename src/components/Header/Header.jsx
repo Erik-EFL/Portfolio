@@ -1,7 +1,8 @@
 import React from 'react';
-import HeaderStyled from './Header.style';
-import Nav from './Components/nav/Nav';
+import Icons from './Components/Icons/Icons_social';
 import Logo from './Components/logo/Logo';
+import Nav from './Components/nav/Nav';
+import HeaderStyled from './Header.style';
 
 export default function Header() {
   return (
@@ -9,6 +10,7 @@ export default function Header() {
       <HeaderStyled>
         <Logo />
         <Nav />
+        <Icons />
       </HeaderStyled>
     </>
   );

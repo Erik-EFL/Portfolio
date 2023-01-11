@@ -1,12 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import MenuMobile from '../NavMobile/Menu.mobile';
-import Icons from './Icosn';
+import MenuMobile from '../Mobile/NavMobile/Menu.mobile';
 import  { NavMenu, Container } from './Nav.style';
 
 export default function Nav() {
   return (
-    <NavMenu>
+    <NavMenu className='navMenu'>
         <Container className='completeMenu'>
           <NavLink
             to="/"
@@ -36,7 +35,6 @@ export default function Nav() {
           >
             Projects
           </NavLink>
-          <Icons />
           <MenuMobile />
         </Container>
       </NavMenu>
